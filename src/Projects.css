@@ -1,0 +1,53 @@
+#Projects{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sub;
+    font-size: 3vh;
+}
+
+.Projects{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sub;
+    font-size: 3vh;
+    margin-top: 50px;
+}
+
+.projectsmain{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 50PX;
+}
+
+.projectcard{
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+}
+
+.projectcard img {
+    width: 100%;
+}
+
+.titlediv{
+    text-align: center;
+}
+
+.title{
+    font-family: sub;
+}
+
+
+@media(max-width: 1000px) {
+    #Projects{
+        font-size: 2.2vh;
+    }
+    .Projects{
+        font-size: 2.2vh;
+    }
+  }

@@ -1,0 +1,39 @@
+.pagemain{
+    margin: 0px 14px;
+    font-family: sub;
+    font-size: 7vh;   
+    display: flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagesub{
+    color: rgba(255, 255, 255, 0);
+    background-clip: text;
+    background-image: linear-gradient(to bottom left,rgb(255, 0, 0),rgb(106, 0, 255));
+    
+}
+.pagesubbtn{
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: sub;
+    border: 2px solid rgb(174, 255, 0);
+    outline: none;
+    font-size: 20px;
+    padding: 9px;
+    color: rgb(174, 255, 0);
+    background-color: black;
+}
+
+.homebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 500px) {
+    .pagemain{
+        font-size: 4vh;
+    }
+  }

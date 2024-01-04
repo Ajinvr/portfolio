@@ -3,6 +3,7 @@ import gsap from 'gsap';
 
 const Main = () => {
   useEffect(() => {
+
     const mainTextWrapper = document.querySelector('.maintxt');
     const mainTextElement = mainTextWrapper.querySelector('h1');
 
@@ -10,8 +11,8 @@ const Main = () => {
 
     const tl = gsap.timeline();
 
-    tl.to(mainTextElement, { opacity: 100, duration: 1, ease: 'elastic' })
-      .to(mainTextElement, { y: 0, duration: 2, ease: 'elastic'}, '-=1');
+    tl.from(mainTextElement, { opacity: 0, duration: 1, ease: 'elastic' })
+      .to(mainTextElement, { y: 0,delay:.5,opacity: 100, duration: 2.3, ease: 'elastic'}, '-=1');
 
     tl.play();
   }, []);
@@ -23,7 +24,6 @@ const Main = () => {
         Ajin vr
       </h1>
       </div>
-      
     </div>
   );
 };

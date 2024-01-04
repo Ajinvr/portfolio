@@ -2,7 +2,11 @@ import React from 'react'
 import '../About.css'
 function About() {
   return (
-    <div id='about' className='maindiv'>
+    <div id='about'>
+   <br/>
+   <br/>
+   <br/>
+    <div  className='maindiv'>
         <div>
              <div className='mainhead'>
                 <h1>About Me</h1>
@@ -12,6 +16,7 @@ function About() {
              </div>
         </div>
       
+    </div>
     </div>
   )
 }
