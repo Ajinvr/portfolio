@@ -1,0 +1,13 @@
+# Allow all bots to access all content
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# Allow access to important directories
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Specify the location of your sitemap
+Sitemap: https://www.ajinvr.tech/sitemap.xml
