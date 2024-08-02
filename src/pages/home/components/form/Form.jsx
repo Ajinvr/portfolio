@@ -77,7 +77,7 @@ const Form = () => {
 
   return (
     <div className='sm:px-20 px-5  md:px-40'>
-      <div className="w-100 mx-auto my-10 p-5 sm:p-10 bg-neon-green shadow-md rounded-lg">
+      <div  className="w-100 mx-auto my-10 p-5 sm:p-10 bg-neon-green shadow-md rounded-lg">
         <h1 className="text-5xl sm:text-6xl font-Bebas-Neue">Get in Touch</h1>
         <p className='mb-5 '>If you are interested in my work or want to provide feedback about this website, I am open to exchanging ideas .</p>
         <form onSubmit={handleSubmit}>
